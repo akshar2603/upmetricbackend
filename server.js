@@ -14,7 +14,7 @@ connectDB();
 
 // CORS configuration
 const corsOptions = {
-  origin: 'http://localhost:5173', // Frontend URL
+  origin: 'https://upmetricfrontend.vercel.app', // Frontend URL
   methods: 'GET,POST',
   credentials: true, // Allow cookies to be sent and received
 };
